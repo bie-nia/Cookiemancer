@@ -12,7 +12,7 @@ Download `cookiemancer-<version>.jar` from [Releases](../../releases), or build 
 ./gradlew build        # -> build/libs/cookiemancer-<version>.jar
 ```
 
-Burp → Extensions → Add → type **Java** → select the jar. A **Cookiemancer** tab appears.
+Burp → Extensions → Add → type **Java** → select the jar. A **CM** tab appears.
 
 ## Tokens
 
@@ -46,11 +46,11 @@ Settings → Sessions → Session handling rules → Add → **Invoke a Burp ext
 
 | Action | What it does |
 |---|---|
-| `Cookiemancer: Replace Token-N` | inserts token N |
-| `Cookiemancer: Replace All Tokens` | inserts every enabled token |
-| `Cookiemancer: Delete Stored Tokens` | deletes stored token values |
-| `Cookiemancer: Delete All Cookies` | empties the Burp cookie jar |
-| `Cookiemancer: Run Script 1–3` | runs an external command (e.g. a Selenium login) |
+| `CM Replace Token-N` | inserts token N |
+| `CM Replace All Tokens` | inserts every enabled token |
+| `CM Delete Stored Tokens` | deletes stored token values |
+| `CM Delete All Cookies` | empties the Burp cookie jar |
+| `CM Run Script 1–3` | runs an external command (e.g. a Selenium login) |
 
 When a token has several values, the one whose path best matches the request URL is used, falling back to `/`.
 

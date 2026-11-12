@@ -135,7 +135,7 @@ final class Config {
         }
 
         String actionName() {
-            return "Cookiemancer: Replace Token-" + slot;
+            return "CM Replace Token-" + slot;
         }
 
         String title() {
@@ -282,7 +282,7 @@ final class Config {
         }
 
         String actionName() {
-            return "Cookiemancer: Run Script " + n;
+            return "CM Run Script " + n;
         }
 
         void io(Io io) {

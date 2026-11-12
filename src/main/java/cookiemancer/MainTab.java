@@ -19,7 +19,7 @@ import java.awt.GridBagLayout;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/** The "Cookiemancer" suite tab: collapsible sections for the listener, tokens, cookie jar and scripts. */
+/** The "CM" suite tab: collapsible sections for the listener, tokens, cookie jar and scripts. */
 final class MainTab implements Engine.Listener {
     private final Config cfg;
     private final Engine engine;

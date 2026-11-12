@@ -25,7 +25,7 @@ public final class Cookiemancer implements BurpExtension {
             MainTab tab = new MainTab(cfg, engine, loaded);
             engine.setListener(tab);
             api.userInterface().applyThemeToComponent(tab.component());
-            api.userInterface().registerSuiteTab("Cookiemancer", tab.component());
+            api.userInterface().registerSuiteTab("CM", tab.component());
             api.extension().registerUnloadingHandler(tab::flush);
         });
 

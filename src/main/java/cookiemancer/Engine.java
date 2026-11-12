@@ -35,9 +35,9 @@ import java.util.regex.PatternSyntaxException;
 
 /** Token capture, request rewriting, cookie jar helpers and external scripts. No Swing in here. */
 final class Engine implements HttpHandler {
-    static final String ACT_REPLACE_ALL = "Cookiemancer: Replace All Tokens";
-    static final String ACT_DEL_TOKENS = "Cookiemancer: Delete Stored Tokens";
-    static final String ACT_DEL_ALL = "Cookiemancer: Delete All Cookies";
+    static final String ACT_REPLACE_ALL = "CM Replace All Tokens";
+    static final String ACT_DEL_TOKENS = "CM Delete Stored Tokens";
+    static final String ACT_DEL_ALL = "CM Delete All Cookies";
     static final int MAX_SCRIPT_THREADS = 5;
 
     /** Callbacks into the UI; all may be invoked from non-EDT threads. */
